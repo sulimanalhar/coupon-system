@@ -18,6 +18,8 @@ namespace coupon_system.data
 
         public DbSet<WeatherForecast> Coupons { get; set; }  // 
         public DbSet<Coupon> Coupon { get; set; }
+        public DbSet<CouponUsage> CouponUsages { get; set; }
+
     }
 
 
